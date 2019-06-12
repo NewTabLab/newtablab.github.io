@@ -1,0 +1,24 @@
+{
+    "update_url": "http://newtablab.com/newtab/",
+    "name": "NewTabLab's Newtab",
+    "version": "1.0",
+    "description": "NewTabLab's Newtab - Bookmark Page",
+    "icons": {
+        "128": "icon.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "clipboardWrite"
+    ],
+    "background": {
+        "persistent": false,
+        "scripts": ["background.js"]
+    },
+    "manifest_version": 2
+}
