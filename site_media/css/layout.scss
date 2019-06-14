@@ -37,7 +37,19 @@ html {
         .dark { display: block !important; }
         .light { display: none !important; }
     }
-
+#gh {
+    position: absolute;
+    bottom: 1em;
+    right: 1.5em;
+    h2 {
+        font-size: .7em;
+    font-weight: 200;
+    // color: $namegray;
+    a {
+        color: $namebold;
+    }
+    }
+}
 #tk {
     a {
         &:hover {

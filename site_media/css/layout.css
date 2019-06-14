@@ -1,1 +1,88 @@
-@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600,700&subset=latin-ext");body,html{height:100%;font-family:'Titillium Web', sans-serif}@media (prefers-color-scheme: dark){body,html{background-color:#000;color:#fff}}@media (prefers-color-scheme: dark){.tooltip .tooltip-inner{background-color:#fff;color:#000}.tooltip.top>.tooltip-arrow{border-top-color:#fff;color:#000}.tooltip.right>.tooltip-arrow{border-right-color:#fff;color:#000}.tooltip.bottom>.tooltip-arrow{border-bottom-color:#fff;color:#000}.tooltip.left>.tooltip-arrow{border-left-color:#fff;color:#000}.bs-tooltip-auto[x-placement^=bottom] .arrow::before,.bs-tooltip-bottom .arrow::before{border-bottom-color:#fff !important;color:#000 !important}.bs-tooltip-auto[x-placement^=top] .arrow::before,.bs-tooltip-top .arrow::before{border-top-color:#fff !important;color:#000 !important}.bs-tooltip-auto[x-placement^=left] .arrow::before,.bs-tooltip-left .arrow::before{border-left-color:#fff !important;color:#000 !important}.bs-tooltip-auto[x-placement^=right] .arrow::before,.bs-tooltip-right .arrow::before{border-right-color:#fff !important;color:#000 !important}}.dark{display:none !important}.light{display:block !important}@media (prefers-color-scheme: dark){.dark{display:block !important}.light{display:none !important}}#tk{position:absolute;bottom:1em;left:1.5em}#tk a:hover{text-decoration:none}#tk h2{padding-left:.5em;font-size:1em;font-weight:200;color:#666}@media (prefers-color-scheme: dark){#tk h2{color:#666}}#tk h2 span{font-weight:400;color:#333}@media (prefers-color-scheme: dark){#tk h2 span{color:#ccc}}#tk h2 span span{font-weight:600;color:#000}@media (prefers-color-scheme: dark){#tk h2 span span{color:#fff}}
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600,700&subset=latin-ext");
+body,
+html {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif; }
+  @media (prefers-color-scheme: dark) {
+    body,
+    html {
+      background-color: #000;
+      color: #fff; } }
+
+@media (prefers-color-scheme: dark) {
+  .tooltip .tooltip-inner {
+    background-color: #fff;
+    color: #000; }
+  .tooltip.top > .tooltip-arrow {
+    border-top-color: #fff;
+    color: #000; }
+  .tooltip.right > .tooltip-arrow {
+    border-right-color: #fff;
+    color: #000; }
+  .tooltip.bottom > .tooltip-arrow {
+    border-bottom-color: #fff;
+    color: #000; }
+  .tooltip.left > .tooltip-arrow {
+    border-left-color: #fff;
+    color: #000; }
+  .bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #fff !important;
+    color: #000 !important; }
+  .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {
+    border-top-color: #fff !important;
+    color: #000 !important; }
+  .bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+    border-left-color: #fff !important;
+    color: #000 !important; }
+  .bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+    border-right-color: #fff !important;
+    color: #000 !important; } }
+
+.dark {
+  display: none !important; }
+
+.light {
+  display: block !important; }
+
+@media (prefers-color-scheme: dark) {
+  .dark {
+    display: block !important; }
+  .light {
+    display: none !important; } }
+
+#gh {
+  position: absolute;
+  bottom: 1em;
+  right: 1.5em; }
+  #gh h2 {
+    font-size: .7em;
+    font-weight: 200; }
+    #gh h2 a {
+      color: #000; }
+
+#tk {
+  position: absolute;
+  bottom: 1em;
+  left: 1.5em; }
+  #tk a:hover {
+    text-decoration: none; }
+  #tk h2 {
+    padding-left: .5em;
+    font-size: 1em;
+    font-weight: 200;
+    color: #666; }
+    @media (prefers-color-scheme: dark) {
+      #tk h2 {
+        color: #666; } }
+    #tk h2 span {
+      font-weight: 400;
+      color: #333; }
+      @media (prefers-color-scheme: dark) {
+        #tk h2 span {
+          color: #ccc; } }
+      #tk h2 span span {
+        font-weight: 600;
+        color: #000; }
+        @media (prefers-color-scheme: dark) {
+          #tk h2 span span {
+            color: #fff; } }
