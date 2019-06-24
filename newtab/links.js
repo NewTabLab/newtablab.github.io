@@ -5,7 +5,7 @@ var LINKS = [
         urls: [
             {url: "https://www.bilgi.edu.tr/tr/yasam/ulasim/shuttle/", name: "Shuttle", cssstyle: "hp_shuttle"},
             {url: "https://webteam.bilgi.edu.tr/tools/", name: "WebTeam Tools", cssstyle: "hp_webteam"},
-            {url: "http://www.birgun.net/", name: "BirGÃƒÂ¼n", cssstyle: "hp_birgun"},
+            {url: "http://www.birgun.net/", name: "BirGün", cssstyle: "hp_birgun"},
             {url: "http://www.diken.com.tr/", name: "Diken", cssstyle: "hp_diken"},
             {url: "http://t24.com.tr/", name: "T24", cssstyle: "hp_t24"},
             {url: "https://www.last.fm/user/tarikkavaz", name: "Last fm", cssstyle: "hp_lastfm"},
