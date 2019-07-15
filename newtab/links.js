@@ -28,31 +28,33 @@ var LINKS = [
             {url: "https://mail.zoho.com/cpanel/index.do#dashboard", name: "ZOHO", cssstyle: "hp_zoho"},
             // {url: "https://admin.google.com/tarikkavaz.com/AdminHome", name: "Google Apps", cssstyle: "hp_googleapps"},
             {url: "https://analytics.google.com/", name: "Analytics", cssstyle: "hp_analytics"},
+            
             // {url: "https://www.google.com/webmasters/tools/url-removal?hl=en&siteUrl=http://www.bilgi.edu.tr/", name: "Webmaster Tools", cssstyle: "hp_webmastertools"},
             {url: "http://webteam.bilgi.edu.tr", name: "Bilgi Webteam", cssstyle: "hp_webteam"},
             {url: "https://www.bilgi.edu.tr/tr/admin/", name: "Bilgi Admin", cssstyle: "hp_bilgiadmin"},
             {url: "http://ticket.bilgi.edu.tr/maximo/ui/maximo.jsp", name: "Bilgi Ticket", cssstyle: "hp_maximo"},
             {url: "https://outlook.office365.com/owa/", name: "Bilgi Outlook", cssstyle: "hp_outlook"},
             {url: "http://rehber.bilgi.edu.tr/", name: "Bilgi Rehber", cssstyle: "hp_rehber"},
+            
         ]
     },
-    // {
-    //     title: "News",
-    //     showon: "desktop",
-    //     urls: [
-    //         {url: "http://feedly.com/", name: "feedly", cssstyle: "hp_feedly"},
-    //         {url: "http://www.diken.com.tr/", name: "Diken", cssstyle: "hp_diken"},
-    //         {url: "http://www.birgun.net/", name: "BirGÃ¼n", cssstyle: "hp_birgun"},
-    //         {url: "http://t24.com.tr/", name: "T24", cssstyle: "hp_t24"},
-    //         {url: "http://bundlehaber.com/#1y", name: "Bundle", cssstyle: "hp_bundle"},
-    //     ]
-    // },
+    {
+        title: "News",
+        showon: "desktop",
+        urls: [
+            {url: "http://feedly.com/", name: "feedly", cssstyle: "hp_feedly"},
+            {url: "http://www.diken.com.tr/", name: "Diken", cssstyle: "hp_diken"},
+            {url: "http://www.birgun.net/", name: "BirGün", cssstyle: "hp_birgun"},
+            {url: "http://t24.com.tr/", name: "T24", cssstyle: "hp_t24"},
+            {url: "http://bundlehaber.com/#1y", name: "Bundle", cssstyle: "hp_bundle"},
+        ]
+    },
     {
         title: "Social",
         showon: "desktop",
         urls: [
-            {url: "http://feedly.com/", name: "feedly", cssstyle: "hp_feedly"},
-            // {url: "https://www.facebook.com/?sk=h_chr", name: "Facebook", cssstyle: "hp_facebook"},
+            // {url: "http://feedly.com/", name: "feedly", cssstyle: "hp_feedly"},
+            {url: "https://www.facebook.com/?sk=h_chr", name: "Facebook", cssstyle: "hp_facebook"},
             {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
             {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
             {url: "https://web.telegram.org/", name: "Telegram", cssstyle: "hp_telegram"},
@@ -68,10 +70,9 @@ var LINKS = [
             {url: "https://app.put.io/files", name: "put.io", cssstyle: "hp_putio"},
             {url: "https://app.plex.tv/desktop", name: "Plex", cssstyle: "hp_plex"},
             {url: "https://www.netflix.com/", name: "Netflix", cssstyle: "hp_netflix"},
-           
-            // {url: "https://player.spotify.com/", name: "Spotify", cssstyle: "hp_spotify"},
-            {url: "http://youtube.com/", name: "YouTube", cssstyle: "hp_youtube"},
+            // {url: "http://youtube.com/", name: "YouTube", cssstyle: "hp_youtube"},
             {url: "http://www.imdb.com/", name: "IMDb", cssstyle: "hp_imdb"},
+            {url: "https://www.audible.com/", name: "Audible", cssstyle: "hp_audible"},
 
             {url: "https://chill.institute/#/", name: "chill.institute", cssstyle: "hp_chill"},
             {url: "https://rarbgmirror.org/torrents.php?category=1;14;15;16;17;21;22;42;18;19;41;27;28;29;30;31;32;40;23;24;25;26;33;34;43;44;45;46;47;48", name: "RARBG", cssstyle: "hp_rarbg"},
