@@ -28,7 +28,6 @@ var LINKS = [
             {url: "https://mail.zoho.com/cpanel/index.do#dashboard", name: "ZOHO", cssstyle: "hp_zoho"},
             // {url: "https://admin.google.com/tarikkavaz.com/AdminHome", name: "Google Apps", cssstyle: "hp_googleapps"},
             {url: "https://analytics.google.com/", name: "Analytics", cssstyle: "hp_analytics"},
-            
             // {url: "https://www.google.com/webmasters/tools/url-removal?hl=en&siteUrl=http://www.bilgi.edu.tr/", name: "Webmaster Tools", cssstyle: "hp_webmastertools"},
             {url: "http://webteam.bilgi.edu.tr", name: "Bilgi Webteam", cssstyle: "hp_webteam"},
             {url: "https://www.bilgi.edu.tr/tr/admin/", name: "Bilgi Admin", cssstyle: "hp_bilgiadmin"},
