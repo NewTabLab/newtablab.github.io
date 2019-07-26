@@ -8,7 +8,6 @@ var LINKS = [
             {url: "http://www.birgun.net/", name: "BirGün", cssstyle: "hp_birgun"},
             {url: "http://www.diken.com.tr/", name: "Diken", cssstyle: "hp_diken"},
             {url: "http://t24.com.tr/", name: "T24", cssstyle: "hp_t24"},
-            {url: "https://www.last.fm/user/tarikkavaz", name: "Last fm", cssstyle: "hp_lastfm"},
             {url: "https://ctrlq.org/google/images/", name: "Image Search", cssstyle: "hp_imgsearch"},
         ]
     },
@@ -21,14 +20,11 @@ var LINKS = [
             {url: "https://cloud.digitalocean.com/", name: "DigitalOcean", cssstyle: "hp_digitalocean"},
             {url: "http://getbootstrap.com/", name: "Bootstrap", cssstyle: "hp_bootstrap"},
             {url: "https://fontawesome.com/icons?d=gallery&m=free", name: "Font-Awesome", cssstyle: "hp_fontawesome"},
-            // {url: "https://trello.com/", name: "Trello", cssstyle: "hp_trello"},
             {url: "https://docs.djangoproject.com/en/2.1/", name: "Django", cssstyle: "hp_django"},
             {url: "https://vuejs.org/v2/guide/", name: "Vue.js", cssstyle: "hp_vue"},
             {url: "https://electronjs.org/docs", name: "Electron", cssstyle: "hp_electron"},
             {url: "https://mail.zoho.com/cpanel/index.do#dashboard", name: "ZOHO", cssstyle: "hp_zoho"},
-            // {url: "https://admin.google.com/tarikkavaz.com/AdminHome", name: "Google Apps", cssstyle: "hp_googleapps"},
             {url: "https://analytics.google.com/", name: "Analytics", cssstyle: "hp_analytics"},
-            // {url: "https://www.google.com/webmasters/tools/url-removal?hl=en&siteUrl=http://www.bilgi.edu.tr/", name: "Webmaster Tools", cssstyle: "hp_webmastertools"},
             {url: "http://webteam.bilgi.edu.tr", name: "Bilgi Webteam", cssstyle: "hp_webteam"},
             {url: "https://www.bilgi.edu.tr/tr/admin/", name: "Bilgi Admin", cssstyle: "hp_bilgiadmin"},
             {url: "http://ticket.bilgi.edu.tr/maximo/ui/maximo.jsp", name: "Bilgi Ticket", cssstyle: "hp_maximo"},
@@ -52,7 +48,6 @@ var LINKS = [
         title: "Social",
         showon: "desktop",
         urls: [
-            // {url: "http://feedly.com/", name: "feedly", cssstyle: "hp_feedly"},
             {url: "https://www.facebook.com/?sk=h_chr", name: "Facebook", cssstyle: "hp_facebook"},
             {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
             {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
@@ -68,8 +63,8 @@ var LINKS = [
         urls: [
             {url: "https://app.put.io/files", name: "put.io", cssstyle: "hp_putio"},
             {url: "https://app.plex.tv/desktop", name: "Plex", cssstyle: "hp_plex"},
-            {url: "https://www.netflix.com/", name: "Netflix", cssstyle: "hp_netflix"},
-            // {url: "http://youtube.com/", name: "YouTube", cssstyle: "hp_youtube"},
+            // {url: "https://www.netflix.com/", name: "Netflix", cssstyle: "hp_netflix"},
+            {url: "http://youtube.com/", name: "YouTube", cssstyle: "hp_youtube"},
             {url: "http://www.imdb.com/", name: "IMDb", cssstyle: "hp_imdb"},
             {url: "https://www.audible.com/", name: "Audible", cssstyle: "hp_audible"},
 
