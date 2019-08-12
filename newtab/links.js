@@ -44,19 +44,19 @@ var LINKS = [
             {url: "http://bundlehaber.com/#1y", name: "Bundle", cssstyle: "hp_bundle"},
         ]
     },
-    {
-        title: "Social",
-        showon: "desktop",
-        urls: [
-            {url: "https://www.facebook.com/?sk=h_chr", name: "Facebook", cssstyle: "hp_facebook"},
-            {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
-            {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
-            {url: "https://web.telegram.org/", name: "Telegram", cssstyle: "hp_telegram"},
-            {url: "http://web.whatsapp.com/", name: "WhatsApp", cssstyle: "hp_whatsapp"},
-            // {url: "https://www.linkedin.com/", name: "LinkedIn", cssstyle: "hp_linkedin"},
+    // {
+    //     title: "Social",
+    //     showon: "desktop",
+    //     urls: [
+    //         {url: "https://www.facebook.com/?sk=h_chr", name: "Facebook", cssstyle: "hp_facebook"},
+    //         {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
+    //         {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
+    //         {url: "https://web.telegram.org/", name: "Telegram", cssstyle: "hp_telegram"},
+    //         {url: "http://web.whatsapp.com/", name: "WhatsApp", cssstyle: "hp_whatsapp"},
+    //         {url: "https://www.linkedin.com/", name: "LinkedIn", cssstyle: "hp_linkedin"},
             
-        ]
-    },
+    //     ]
+    // },
     {
         title: "Media",
         showon: "desktop",
