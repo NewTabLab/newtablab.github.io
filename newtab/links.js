@@ -38,10 +38,11 @@ var LINKS = [
         showon: "desktop",
         urls: [
             {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
+            {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
             {url: "http://www.diken.com.tr/", name: "Diken", cssstyle: "hp_diken"},
             {url: "http://www.birgun.net/", name: "BirGün", cssstyle: "hp_birgun"},
             {url: "http://t24.com.tr/", name: "T24", cssstyle: "hp_t24"},
-            {url: "http://bundlehaber.com/#1y", name: "Bundle", cssstyle: "hp_bundle"},
+            // {url: "http://bundlehaber.com/#1y", name: "Bundle", cssstyle: "hp_bundle"},
         ]
     },
     // {
