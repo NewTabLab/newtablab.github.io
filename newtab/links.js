@@ -37,7 +37,7 @@ var LINKS = [
         title: "News",
         showon: "desktop",
         urls: [
-            {url: "http://feedly.com/", name: "feedly", cssstyle: "hp_feedly"},
+            {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
             {url: "http://www.diken.com.tr/", name: "Diken", cssstyle: "hp_diken"},
             {url: "http://www.birgun.net/", name: "BirGün", cssstyle: "hp_birgun"},
             {url: "http://t24.com.tr/", name: "T24", cssstyle: "hp_t24"},
