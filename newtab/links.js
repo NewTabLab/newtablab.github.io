@@ -33,40 +33,43 @@ var LINKS = [
             
         ]
     },
-    {
-        title: "News",
-        showon: "desktop",
-        urls: [
-            {url: "http://feedly.com/", name: "feedly", cssstyle: "hp_feedly"},
-            {url: "http://www.diken.com.tr/", name: "Diken", cssstyle: "hp_diken"},
-            {url: "http://www.birgun.net/", name: "BirGün", cssstyle: "hp_birgun"},
-            {url: "http://t24.com.tr/", name: "T24", cssstyle: "hp_t24"},
-            {url: "http://bundlehaber.com/#1y", name: "Bundle", cssstyle: "hp_bundle"},
-        ]
-    },
-    {
-        title: "Social",
-        showon: "desktop",
-        urls: [
-            {url: "https://www.facebook.com/?sk=h_chr", name: "Facebook", cssstyle: "hp_facebook"},
-            {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
-            {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
-            {url: "https://web.telegram.org/", name: "Telegram", cssstyle: "hp_telegram"},
-            {url: "http://web.whatsapp.com/", name: "WhatsApp", cssstyle: "hp_whatsapp"},
-            // {url: "https://www.linkedin.com/", name: "LinkedIn", cssstyle: "hp_linkedin"},
+    // {
+    //     title: "News",
+    //     showon: "desktop",
+    //     urls: [
+    //         {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
+    //         {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
+    //         {url: "http://www.diken.com.tr/", name: "Diken", cssstyle: "hp_diken"},
+    //         {url: "http://www.birgun.net/", name: "BirGün", cssstyle: "hp_birgun"},
+    //         {url: "http://t24.com.tr/", name: "T24", cssstyle: "hp_t24"},
+    //         {url: "http://bundlehaber.com/#1y", name: "Bundle", cssstyle: "hp_bundle"},
+    //     ]
+    // },
+    // {
+    //     title: "Social",
+    //     showon: "desktop",
+    //     urls: [
+    //         {url: "https://www.facebook.com/?sk=h_chr", name: "Facebook", cssstyle: "hp_facebook"},
+    //         {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
+    //         {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
+    //         {url: "https://web.telegram.org/", name: "Telegram", cssstyle: "hp_telegram"},
+    //         {url: "http://web.whatsapp.com/", name: "WhatsApp", cssstyle: "hp_whatsapp"},
+    //         {url: "https://www.linkedin.com/", name: "LinkedIn", cssstyle: "hp_linkedin"},
             
-        ]
-    },
+    //     ]
+    // },
     {
         title: "Media",
         showon: "desktop",
         urls: [
+            {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
+            {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
             {url: "https://app.put.io/files", name: "put.io", cssstyle: "hp_putio"},
             {url: "https://app.plex.tv/desktop", name: "Plex", cssstyle: "hp_plex"},
             // {url: "https://www.netflix.com/", name: "Netflix", cssstyle: "hp_netflix"},
             {url: "http://youtube.com/", name: "YouTube", cssstyle: "hp_youtube"},
-            {url: "http://www.imdb.com/", name: "IMDb", cssstyle: "hp_imdb"},
-            {url: "https://www.audible.com/", name: "Audible", cssstyle: "hp_audible"},
+            // {url: "http://www.imdb.com/", name: "IMDb", cssstyle: "hp_imdb"},
+            // {url: "https://www.audible.com/", name: "Audible", cssstyle: "hp_audible"},
 
             {url: "https://chill.institute/#/", name: "chill.institute", cssstyle: "hp_chill"},
             {url: "https://rarbgmirror.org/torrents.php?category=1;14;15;16;17;21;22;42;18;19;41;27;28;29;30;31;32;40;23;24;25;26;33;34;43;44;45;46;47;48", name: "RARBG", cssstyle: "hp_rarbg"},
