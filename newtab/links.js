@@ -59,7 +59,7 @@ var LINKS = [
     //     ]
     // },
     {
-        title: "Media",
+        title: "Fun",
         showon: "desktop",
         urls: [
             {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
