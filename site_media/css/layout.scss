@@ -1,4 +1,3 @@
-// @import url('https://fonts.googleapis.com/css?family=Dosis:200,400,600');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600,700&subset=latin-ext');
 $namethin: #666;
 $nameregular: #333;
@@ -11,45 +10,8 @@ body,
 html {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
-    @media (prefers-color-scheme: dark) {
-        background-color: $namebold;
-        color: $white;
-    }
 }
 
-@media (prefers-color-scheme: dark) {
-    .tooltip .tooltip-inner {        background-color:    $white; color: $namebold; }
-    .tooltip.top>.tooltip-arrow {    border-top-color:    $white; color: $namebold; }
-    .tooltip.right>.tooltip-arrow {  border-right-color:  $white; color: $namebold; }
-    .tooltip.bottom>.tooltip-arrow { border-bottom-color: $white; color: $namebold; }
-    .tooltip.left>.tooltip-arrow {   border-left-color:   $white; color: $namebold; }
-    .bs-tooltip-auto[x-placement^=bottom] .arrow::before, .bs-tooltip-bottom .arrow::before { border-bottom-color: $white !important; color: $namebold !important; }
-    .bs-tooltip-auto[x-placement^=top] .arrow::before, .bs-tooltip-top .arrow::before {       border-top-color:    $white !important; color: $namebold !important; }
-    .bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {     border-left-color:   $white !important; color: $namebold !important; }
-    .bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {   border-right-color:  $white !important; color: $namebold !important; }
-}
-
-
-//Logo
-.dark { display: none !important; }
-.light { display: block !important; }
-    @media (prefers-color-scheme: dark) {
-        .dark { display: block !important; }
-        .light { display: none !important; }
-    }
-#gh {
-    position: absolute;
-    bottom: 1em;
-    right: 1.5em;
-    h2 {
-        font-size: .7em;
-    font-weight: 200;
-    // color: $namegray;
-    a {
-        color: $namebold;
-    }
-    }
-}
 #tk {
     a {
         &:hover {
@@ -61,25 +23,15 @@ html {
     left: 1.5em;
     h2 {
         padding-left: .5em;
-        // font-family: 'Dosis', sans-serif;
         font-size: 1em;
         font-weight: 200;
         color: $namethin;
-        @media (prefers-color-scheme: dark) {
-            color: $namethin;
-        }
         span {
             font-weight: 400;
             color: $nameregular;
-            @media (prefers-color-scheme: dark) {
-                color: $namegray;
-            }
             span {
                 font-weight: 600;
                 color: $namebold;
-                @media (prefers-color-scheme: dark) {
-                    color: $white;
-                }
             }
         }
     }
