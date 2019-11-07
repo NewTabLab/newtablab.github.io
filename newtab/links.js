@@ -30,7 +30,6 @@ var LINKS = [
             {url: "http://ticket.bilgi.edu.tr/maximo/ui/maximo.jsp", name: "Bilgi Ticket", cssstyle: "hp_maximo"},
             {url: "https://outlook.office365.com/owa/", name: "Bilgi Outlook", cssstyle: "hp_outlook"},
             {url: "http://rehber.bilgi.edu.tr/", name: "Bilgi Rehber", cssstyle: "hp_rehber"},
-            
         ]
     },
     // {
@@ -55,7 +54,6 @@ var LINKS = [
     //         {url: "https://web.telegram.org/", name: "Telegram", cssstyle: "hp_telegram"},
     //         {url: "http://web.whatsapp.com/", name: "WhatsApp", cssstyle: "hp_whatsapp"},
     //         {url: "https://www.linkedin.com/", name: "LinkedIn", cssstyle: "hp_linkedin"},
-            
     //     ]
     // },
     {
@@ -68,26 +66,19 @@ var LINKS = [
             {url: "https://app.plex.tv/desktop", name: "Plex", cssstyle: "hp_plex"},
             // {url: "https://www.netflix.com/", name: "Netflix", cssstyle: "hp_netflix"},
             {url: "http://youtube.com/", name: "YouTube", cssstyle: "hp_youtube"},
-            // {url: "http://www.imdb.com/", name: "IMDb", cssstyle: "hp_imdb"},
             // {url: "https://www.audible.com/", name: "Audible", cssstyle: "hp_audible"},
-
             {url: "https://chill.institute/#/", name: "chill.institute", cssstyle: "hp_chill"},
             {url: "https://rarbgmirror.org/torrents.php?category=1;14;15;16;17;21;22;42;18;19;41;27;28;29;30;31;32;40;23;24;25;26;33;34;43;44;45;46;47;48", name: "RARBG", cssstyle: "hp_rarbg"},
             {url: "https://yts.ag/browse-movies", name: "YTS", cssstyle: "hp_yts"},
             {url: "https://thepiratebay.org/", name: "PirateBay", cssstyle: "hp_piratebay"},
             {url: "https://www.reddit.com/me/m/uktvshows/new/", name: "UK TV Shows", cssstyle: "hp_uktvshows"},
-
             {url: "https://subscene.com/", name: "Subscene", cssstyle: "hp_subscene"},
             {url: "http://www.addic7ed.com/", name: "addic7ed", cssstyle: "hp_addic7ed"},
             {url: "http://www.yifysubtitles.com/", name: "Yify Subtitle", cssstyle: "hp_ytssub"},
             {url: "http://www.tvmaze.com/watchlist?filter=&sort=2", name: "TVMaze", cssstyle: "hp_tvmaze"},
-            {url: "http://showrss.info/timeline", name: "ShowRSS", cssstyle: "hp_showrss"},
-            
-            
+            {url: "http://www.imdb.com/", name: "IMDb", cssstyle: "hp_imdb"},
+            // {url: "http://showrss.info/timeline", name: "ShowRSS", cssstyle: "hp_showrss"},
             // {url: "https://www.last.fm/user/tarikkavaz", name: "Last fm", cssstyle: "hp_lastfm"},
-            
-            
-            
         ]
     },
 ];
