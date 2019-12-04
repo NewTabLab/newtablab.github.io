@@ -61,7 +61,8 @@ var LINKS = [
         urls: [
             {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
             {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
-            {url: "https://app.put.io/files", name: "put.io", cssstyle: "hp_putio"},
+            // {url: "https://app.put.io/files", name: "put.io", cssstyle: "hp_putio"},
+            {url: "https://alldebrid.com/service/", name: "Alldebrid", cssstyle: "hp_putio"},
             {url: "https://app.plex.tv/desktop", name: "Plex", cssstyle: "hp_plex"},
             // {url: "https://www.netflix.com/", name: "Netflix", cssstyle: "hp_netflix"},
             {url: "http://youtube.com/", name: "YouTube", cssstyle: "hp_youtube"},
