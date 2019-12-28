@@ -61,7 +61,7 @@ var LINKS = [
         urls: [
             {url: "https://twitter.com/", name: "Twitter", cssstyle: "hp_twitter"},
             {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
-            {url: "https://alldebrid.com/service/", name: "Alldebrid", cssstyle: "hp_putio"},
+            {url: "https://alldebrid.com/torrent/", name: "Alldebrid", cssstyle: "hp_putio"},
             {url: "https://app.plex.tv/desktop", name: "Plex", cssstyle: "hp_plex"},
             {url: "http://youtube.com/", name: "YouTube", cssstyle: "hp_youtube"},
             {url: "https://rarbgmirror.org/torrents.php?category=1;14;15;16;17;21;22;42;18;19;41;27;28;29;30;31;32;40;23;24;25;26;33;34;43;44;45;46;47;48", name: "RARBG", cssstyle: "hp_rarbg"},
