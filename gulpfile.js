@@ -5,7 +5,7 @@ var sourcemaps  = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
 
-// Compile all .scss into src/css/global.css
+// Compile all .scss into site_media/css/layout.css
 gulp.task('sass', function() {
     return gulp.src([
             'node_modules/bootstrap/scss/bootstrap.scss',
@@ -16,7 +16,7 @@ gulp.task('sass', function() {
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(concat('layout.css'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest("site_media//css"))
+        .pipe(gulp.dest("site_media/css"))
         .pipe(browserSync.stream());
 });
 
@@ -31,7 +31,7 @@ gulp.task('js', function() {
         ])
         .pipe(concat('main.js'))
         .pipe(uglify())
-        .pipe(gulp.dest("src/js"))
+        .pipe(gulp.dest("site_media/js"))
         .pipe(browserSync.stream());
 });
 
