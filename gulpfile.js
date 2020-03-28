@@ -42,8 +42,8 @@ gulp.task('serve', gulp.series('sass', function() {
         server: "./"  
     });
 
-    gulp.watch(['node_modules/bootstrap/scss/bootstrap.scss', 'site_media/css/*.scss'], gulp.series('sass'));
-    gulp.watch("*.html").on('change', browserSync.reload);
+    gulp.watch(['./node_modules/bootstrap/scss/bootstrap.scss', './site_media/css/*.scss'], gulp.series('sass'));
+    gulp.watch("./*.html").on('change', browserSync.reload);
 }));
 
 gulp.task('default', gulp.parallel('js','serve'));
