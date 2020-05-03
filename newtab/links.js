@@ -17,7 +17,7 @@ var LINKS = [
             {url: "https://bitbucket.org/", name: "Bitbucket", cssstyle: "hp_bitbucket"},
             {url: "https://github.com/", name: "GitHub", cssstyle: "hp_github"},
             {url: "https://cloud.digitalocean.com/", name: "DigitalOcean", cssstyle: "hp_digitalocean"},
-            {url: "http://getbootstrap.com/", name: "Bootstrap", cssstyle: "hp_bootstrap"},
+            {url: "https://getbootstrap.com/docs/4.4/getting-started/introduction/", name: "Bootstrap", cssstyle: "hp_bootstrap"},
             {url: "https://fontawesome.com/icons?d=gallery&m=free", name: "Font-Awesome", cssstyle: "hp_fontawesome"},
             {url: "https://docs.djangoproject.com/en/2.1/", name: "Django", cssstyle: "hp_django"},
             {url: "https://vuejs.org/v2/guide/", name: "Vue.js", cssstyle: "hp_vue"},
