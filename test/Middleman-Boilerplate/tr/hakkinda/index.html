@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hakkında | Middleman Boilerplate</title>
+    <meta name="description" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate commodi animi, incidunt assumenda ea, libero corporis neque et saepe, placeat reiciendis ratione dicta. Quam error cum porro vitae laudantium voluptates" />
+    <link href="/statics/css/assets.css" rel="stylesheet" />
+    <link href="/statics/css/layout.css" rel="stylesheet" />
+</head>
+
+<body class="d-flex flex-column h-100">
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="/tr/">Logo</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu"
+        aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse bg-dark px-4" id="mainMenu">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a href="/tr/" class="nav-link">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+                <a href="/tr/hakkinda/" class="nav-link active">Hakkında</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Altmenü Başlığı
+                </a>
+                <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                    <a href="/tr/hakkinda/" class="dropdown-item active">Hakkında</a>
+                    <a href="/tr/subfolder/" class="dropdown-item">Alt Klasör</a>
+                    <a href="/tr/subfolder/alt/" class="dropdown-item">Alt Klasör Alt</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="/tr/fonts/" class="dropdown-item">Fonts & Icons</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://github.com/tarikkavaz/Middleman-Boilerplate" target="_blank">Repo</a>
+                    <a class="dropdown-item" href="https://middlemanapp.com/basics/install/" target="_blank">Middleman Docs</a>
+                    
+                </div>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto pr-1">
+            <li class="nav-item text-right">
+                <a class="nav-link" href="/en/about/">English</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <main role="main">
+        
+
+
+<div class="container" id="content">
+    <div class="row">
+        <div class="col-12 order-0 order-md-0">
+            <h1>Hakkında</h1>
+            <hr>
+        </div>
+        <div class="col-md-3 order-1 order-md-1">
+            <div class="d-md-flex py-2" id="sidemenu">
+    <ul class="nav flex-column flex-nowrap w-100 px-2">
+        <li class="nav-item active"><a href="/tr/hakkinda/" class="nav-link">Hakkında</a></li>
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#submenu1" data-toggle="collapse" data-target="#submenu1">Altmenü Başlığı</a>
+            <div class="collapse " id="submenu1" aria-expanded="false">
+                <ul class="flex-column nav">
+                    <li class="nav-item"><a href="/tr/json_data_source/" class="nav-link">JSON with data_source</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#submenu1sub1" data-toggle="collapse" data-target="#submenu1sub1">Altmenü Alt</a>
+                        <div class="collapse " id="submenu1sub1" aria-expanded="false">
+                            <ul class="flex-column nav">
+                                <li class="nav-item"><a href="/tr/json_js/" class="nav-link">JSON with js</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+    </ul>
+</div>
+        </div>
+        <div class="col-md-9 order-2 order-md-2">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate commodi animi, incidunt assumenda ea, libero corporis neque et saepe, placeat reiciendis ratione dicta. Quam error cum porro vitae laudantium voluptates</p>
+            <hr>
+            <div id="gallery">
+                <a href="/statics/img/1.jpg" class="fancybox" rel="gallery"  title="Test Image 1">
+                <img src="/statics/img/1.jpg" class="img-responsive"/></a>
+                <a href="/statics/img/2.jpg" class="fancybox" rel="gallery"  title="Test Image 2">
+                <img src="/statics/img/2.jpg" class="img-responsive"/></a>
+                <a href="/statics/img/3.jpg" class="fancybox" rel="gallery"  title="Test Image 3">
+                <img src="/statics/img/3.jpg" class="img-responsive"/></a>
+            </div>
+        </div>
+    </div>
+</div>
+    </main>
+
+    <footer class="footer">
+    <div class="container">
+        TR Place sticky footer content here.
+    </div>
+</footer>
+
+    <script src="/statics/js/site.js"></script>
+</body>
+
+</html>
