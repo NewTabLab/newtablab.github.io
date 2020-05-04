@@ -28,7 +28,7 @@ var LINKS = [
             {url: "http://webteam.bilgi.edu.tr", name: "Bilgi Webteam", cssstyle: "hp_webteam"},
             {url: "https://www.bilgi.edu.tr/tr/webedit/", name: "Bilgi Admin", cssstyle: "hp_bilgiadmin"},
             {url: "http://ticket.bilgi.edu.tr/maximo/ui/maximo.jsp", name: "Bilgi Ticket", cssstyle: "hp_maximo"},
-            {url: "https://portal.office.com/", name: "Bilgi Outlook", cssstyle: "hp_outlook"},
+            {url: "https://outlook.office.com/mail/", name: "Bilgi Outlook", cssstyle: "hp_outlook"},
             {url: "http://rehber.bilgi.edu.tr/", name: "Bilgi Rehber", cssstyle: "hp_rehber"},
         ]
     },
