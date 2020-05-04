@@ -64,7 +64,7 @@ var LINKS = [
             {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
             {url: "https://alldebrid.com/torrent/", name: "Alldebrid", cssstyle: "hp_putio"},
             {url: "https://app.plex.tv/desktop", name: "Plex", cssstyle: "hp_plex"},
-            {url: "https://rarbgmirror.org/torrents.php?category=1;14;15;16;17;21;22;42;18;19;41;27;28;29;30;31;32;40;23;24;25;26;33;34;43;44;45;46;47;48", name: "RARBG", cssstyle: "hp_rarbg"},
+            {url: "https://rarbgproxied.org/torrents.php?category=2;14;15;16;17;21;22;42;18;19;41;27;28;29;30;31;32;40;23;24;25;26;33;34;43;44;45;46;47;48;49;50;51;52;54", name: "RARBG", cssstyle: "hp_rarbg"},
             {url: "https://yts.mx/browse-movies", name: "YTS", cssstyle: "hp_yts"},
             {url: "https://thepiratebay.org/", name: "PirateBay", cssstyle: "hp_piratebay"},
             {url: "https://www.reddit.com/user/rollingsoul/m/uktvshows/new/", name: "UK TV Shows", cssstyle: "hp_uktvshows"},
