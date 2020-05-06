@@ -75,8 +75,10 @@
 .hp_piratebay:hover {color: #6A472B; background-color: #fff;}
 .hp_podnapisi {background-color: #4E6EE3; color: #fff;}
 .hp_podnapisi:hover {color: #4E6EE3; background-color: #fff;}
-.hp_putio {background-color: #FDCE45; color: #000;}
-.hp_putio:hover {color: #FDCE45; background-color: #000;}
+.hp_putio {color: #FDCE45; background-color: #242424;}
+.hp_putio:hover {background-color: #FDCE45; color: #242424;}
+.hp_alldebrid {color: #f8c346; background-color: #000;}
+.hp_alldebrid:hover {background-color: #f8c346; color: #000;}
 .hp_rarbg {background-color: #3860BB; color: #fff;}
 .hp_rarbg:hover {color: #3860BB; background-color: #fff;}
 .hp_reddit {background-color: #CEE3F8; color: #000;}

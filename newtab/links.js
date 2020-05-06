@@ -66,7 +66,7 @@ var LINKS = [
             {url: "http://web.whatsapp.com/", name: "WhatsApp", cssstyle: "hp_whatsapp"},
             {url: "https://www.reddit.com/", name: "reddit", cssstyle: "hp_reddit"},
             {url: "https://app.put.io/files", name: "put.io", cssstyle: "hp_putio"},
-            {url: "https://alldebrid.com/torrent/", name: "Alldebrid", cssstyle: "hp_putio"},
+            {url: "https://alldebrid.com/torrent/", name: "Alldebrid", cssstyle: "hp_alldebrid"},
             {url: "https://chill.institute/#/", name: "chill.institute", cssstyle: "hp_chill"},
             {url: "http://www.imdb.com/", name: "IMDb", cssstyle: "hp_imdb"},
             {url: "https://app.plex.tv/desktop", name: "Plex", cssstyle: "hp_plex"},
