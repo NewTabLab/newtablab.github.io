@@ -8,7 +8,7 @@ var LINKS = [
             // {url: "http://www.diken.com.tr/", name: "Diken", cssstyle: "hp_diken"},
             // {url: "http://t24.com.tr/", name: "T24", cssstyle: "hp_t24"},
             {url: "https://ctrlq.org/google/images/", name: "Image Search", cssstyle: "hp_imgsearch"},
-            {url: "https://app.plex.tv/", name: "Plex", cssstyle: "hp_plex"},
+            {url: "https://app.put.io/", name: "put.io", cssstyle: "hp_putio"},
         ]
     },
     {
