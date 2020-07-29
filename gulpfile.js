@@ -9,7 +9,7 @@ var sass        = require('gulp-sass');
 gulp.task('sass', function() {
     return gulp.src([
             'node_modules/bootstrap/scss/bootstrap.scss',
-            'node_modules/jquery-fancybox/source/scss/jquery.fancybox.scss',
+            // 'node_modules/jquery-fancybox/source/scss/jquery.fancybox.scss',
             'site_media/css/*.scss'
         ])
         .pipe(sourcemaps.init())
@@ -26,7 +26,7 @@ gulp.task('js', function() {
             'node_modules/jquery/dist/jquery.min.js',
             'node_modules/bootstrap/dist/js/bootstrap.min.js',
             'node_modules/popper.js/dist/umd/popper.min.js',
-            'node_modules/jquery-fancybox/source/js/jquery.fancybox.js',
+            // 'node_modules/jquery-fancybox/source/js/jquery.fancybox.js',
             //'custom/scripts.js'
         ])
         .pipe(concat('main.js'))
