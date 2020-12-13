@@ -78,25 +78,25 @@ $(function() {
 
       if (fullpage.length) {
         fullpage.fullpage({
-          sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
+          sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
           menu: '#menu',
           scrollingSpeed: 1000,
           responsiveWidth: 1200,
           navigation: true,
           loopBottom: true,
-      		verticalCentered: false
+          verticalCentered: false
         });
       };
 
       if (fullpageNormalScroll.length) {
         fullpageNormalScroll.fullpage({
-          sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
+          sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
           menu: '#menu',
           responsiveWidth: 1183,
           navigation: false,
           autoScrolling: false,
           fitToSection: false,
-    		  verticalCentered: false
+          verticalCentered: false
         });
       };
   // --------------------------------------------- //
