@@ -78,6 +78,7 @@ $(function() {
 
       if (fullpage.length) {
         fullpage.fullpage({
+          anchors:['welcome', 'aboutus', 'musicPlatform', 'recordLabel', 'groovyBrands', 'contact'],
           sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
           menu: '#menu',
           scrollingSpeed: 1000,
