@@ -18,6 +18,29 @@ body {
     height: 100%;
 }
 
+
+#icons {
+    margin-top: 1em;
+    text-align: center;
+    span {
+        display: block;
+        margin-top: 2.2em;
+        text-align: center;
+        .break {
+            height: 1rem;
+        }
+    }
+    a {
+        color: $namebold;
+        font-size: 1.5em;
+        display: inline-block;
+        min-width: 2.5rem;
+        margin-right: .5rem;
+        margin-left: .5rem;
+        // margin-bottom: 2rem;
+    }
+}
+
 #tk {
     a {
         &:hover {
@@ -41,9 +64,4 @@ body {
             }
         }
     }
-}
-
-#cookiemonster {
-    color: $white;
-    text-align: center;
 }
