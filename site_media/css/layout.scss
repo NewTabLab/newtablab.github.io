@@ -6,13 +6,15 @@ $namebold: #000;
 $white: #fff;
 
 
-body, html {
+body,
+html {
     height: 100%;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 
-    background: darken($white, 10%); 
-    }
+    background: darken($white, 10%);
+}
+
 body {
     font-family: 'Titillium Web', sans-serif;
     height: 100%;
@@ -22,14 +24,17 @@ body {
 #icons {
     margin-top: 1em;
     text-align: center;
+
     span {
         display: block;
         margin-top: 2.2em;
         text-align: center;
+
         .break {
             height: 1rem;
         }
     }
+
     a {
         color: $namebold;
         font-size: 1.5em;
@@ -42,26 +47,33 @@ body {
 }
 
 #tk {
+    text-align: center;
+    margin-top: 2rem;
+
     a {
         &:hover {
             text-decoration: none;
         }
     }
-    position: absolute;
-    top: 2em;
-    left: 2em;
+
+    // position: absolute;
+    // top: 2em;
+    // left: 2em;
     h2 {
         padding-left: .5em;
         font-size: 1em;
         font-weight: 200;
         color: $namethin;
+
         span {
             font-weight: 400;
             color: $nameregular;
+
             span {
                 font-weight: 600;
                 color: $namebold;
             }
         }
     }
+
 }
