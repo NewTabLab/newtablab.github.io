@@ -1,0 +1,44 @@
+@mixin shadow($px1, $px2, $px3, $px4, $shadwcolor){
+    -webkit-box-shadow: $px1 $px2 $px3 $px4 $shadwcolor;
+       -moz-box-shadow: $px1 $px2 $px3 $px4 $shadwcolor;
+        -ms-box-shadow: $px1 $px2 $px3 $px4 $shadwcolor;
+            box-shadow: $px1 $px2 $px3 $px4 $shadwcolor;
+
+}
+
+@mixin radius($rd1, $rd2, $rd3, $rd4){
+    -webkit-border-radius: $rd1 $rd2 $rd3 $rd4;
+       -moz-border-radius: $rd1 $rd2 $rd3 $rd4;
+           -border-radius: $rd1 $rd2 $rd3 $rd4;
+}
+
+@mixin gradient($color1,$color2){
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from($color1),
+        to($color2)
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+}
+
+@mixin gradientstop($color1, $color2, $stop1, $stop2, $stop3) {
+    background: $color1;
+    background: -moz-linear-gradient(top, $color1 $stop1, $color1 $stop2, $color2 $stop3);
+    background: -webkit-gradient(left top, left bottom, color-stop($stop1, $color1), color-stop($stop2, $color1), color-stop($stop3, $color2));
+    background: -webkit-linear-gradient(top, $color1 $stop1, $color1 $stop2, $color2 $stop3);
+    background: -o-linear-gradient(top, $color1 $stop1, $color1 $stop2, $color2 $stop3);
+    background: -ms-linear-gradient(top, $color1 $stop1, $color1 $stop2, $color2 $stop3);
+    background: linear-gradient(to bottom, $color1 $stop1, $color1 $stop2, $color2 $stop3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#$color1', endColorstr='#$color2', GradientType=0);
+}
+
+$step-size-heading: 0.33333;
+$amplifier-heading: 1.2;
+@mixin heading-size($size) {
+    font-size: $size * $step-size-heading * $amplifier-heading + em;
+    
+}

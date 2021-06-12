@@ -1,23 +1,24 @@
 {
-  "name": "ntl-homepage",
+  "name": "trk-homepage",
   "version": "1.0.0",
-  "description": "NewTabLab",
+  "description": "TarikKavaz",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "NewTabLab",
+  "author": "TarikKavaz",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NewTabLab/newtablab.github.io.git"
+    "url": "https://github.com/tarikkavaz/tarikkavaz.github.io.git"
   },
   "dependencies": {
-    "lodash.template": ">=4.5.0",
-    "bootstrap": ">=4.4.0",
-    "jquery": ">=3.5.0",
+    "bootstrap": "^4.4.0",
+    "jquery": "3.5.1",
     "jquery-fancybox": "^3.1.0",
-    "popper.js": "^1.16.0"
+    "popper.js": "^1.16.0",
+    "retinajs": "^2.1.3",
+    "@fortawesome/fontawesome-free": "5.13.0"
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
