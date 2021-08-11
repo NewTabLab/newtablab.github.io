@@ -1,0 +1,30 @@
+{
+  "name": "vue-tailwindcss-tailwindui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "git subtree push --prefix dist origin gh-pages"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "core-js": "^3.6.5",
+    "node-sass": "^4.14.1",
+    "rsynced": "^1.3.0",
+    "sass-loader": "^10.1.1",
+    "skrollr": "^0.6.26",
+    "vue": "^3.0.0",
+    "vue-gtag": "^2.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.7"
+  }
+}
