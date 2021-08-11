@@ -16,7 +16,7 @@
     "sass-loader": "^10.1.1",
     "skrollr": "^0.6.26",
     "vue": "^3.0.0",
-    "vue-gtag": "^2.0.1"
+    "vue-gtag-next": "^1.14.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
