@@ -5,6 +5,6 @@ import './index.scss'
 
 createApp(App).use(VueGtag, {
   property: { 
-    id: "UA-3450196-6",
+    id: "UA-3450196-8",
   }
 }).mount("#app");
