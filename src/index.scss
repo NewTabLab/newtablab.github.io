@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&family=Titillium+Web:wght@200;400;600;700&display=swap&subset=latin-ext');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .ani-delay-2000 {
+        animation-delay: 2s;
+    }
+
+    .ani-delay-4000 {
+        animation-delay: 4s;
+    }
+}
