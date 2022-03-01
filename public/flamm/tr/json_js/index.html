@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="title" content="Remote JSON data with JS | Flamm Bodrum  Hotel - Beach - Restaurant">
+    <meta name="author" content="Flamm Bodrum Hotel" />
+    <meta name="keywords" content="golkoy, turkbuku, golturkbuku, bodrum hotel, bodrum otel, turkbuku otel, bodrum butik otel, bodrum beach club, turkbuku beach club." />
+    <meta name="description" content="Data from https://newtablab.com/test/db.json See source/statics/js/custom.js" />
+    <meta name="copyright" content="Remote JSON data with JS | Flamm Bodrum  Hotel - Beach - Restaurant" />
+
+    <meta property="og:title" content="Remote JSON data with JS | Flamm Bodrum  Hotel - Beach - Restaurant">
+    <meta property="og:description" content="Data from https://newtablab.com/test/db.json See source/statics/js/custom.js" />
+    <meta property="og:url" content="http://flammbodrum.com ">
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:locale:alternate" content="en_GB" />
+    <meta property="og:site_name" content="Remote JSON data with JS | Flamm Bodrum  Hotel - Beach - Restaurant">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://flammbodrum.com/statics/img/og-image.jpg">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/statics/img/icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/statics/img/icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/statics/img/icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/statics/img/icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/statics/img/icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/statics/img/icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/statics/img/icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/statics/img/icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/statics/img/icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/statics/img/icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/statics/img/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/statics/img/icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/statics/img/icons/favicon-16x16.png">
+
+    <link href="/statics/css/layout.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainmenu">
+    <!-- <div class="container d-flex align-items-start"> -->
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/"><img src="/statics/img/logo/flamm-logo.png" class="img-fluid" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar"
+            aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <li class="nav-item"><a href="/en/#home" class="nav-link">Home</a></li>
+                </li>
+                <li class="nav-item">
+                    <li class="nav-item"><a href="/en/#rooms" class="nav-link">Rooms</a></li>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="roomsDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Rooms
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="roomsDropdown">
+                        <a class="dropdown-item" href="#rooms">Rooms @ Flamm</a>
+                        <a class="dropdown-item" href="#standardroom">Standart Room</a>
+                        <a class="dropdown-item" href="#terracegardensuite">Terrace Suite</a>
+                        <a class="dropdown-item" href="#seasidesuite">Seaside Suite</a>
+                        <a class="dropdown-item" href="#flammsuite">Flamm Suite</a>
+                    </div>
+                </li> -->
+                <li class="nav-item">
+                    <li class="nav-item"><a href="/en/#eatdrink" class="nav-link">Eat & Drink</a></li>
+                </li>
+                <li class="nav-item">
+                    <li class="nav-item"><a href="/en/#artflamm" class="nav-link">Art@flamm</a></li>
+                </li>
+                <li class="nav-item">
+                    <li class="nav-item"><a href="/en/#weddingsevents" class="nav-link">Weddings & Events</a></li>
+                </li>
+                <li class="nav-item">
+                    <li class="nav-item"><a href="/en/#gallery" class="nav-link">Gallery</a></li>
+                </li>
+                <li class="nav-item">
+                    <li class="nav-item"><a href="/en/#covid19" class="nav-link">Covid-19</a></li>
+                </li>
+                <li class="nav-item">
+                    <li class="nav-item"><a href="/en/#contact" class="nav-link">Contact</a></li>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/en/json_js/">English</a>
+                </li>
+
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+    </div>
+</nav>
+    
+
+
+
+
+<div class="container" id="content">
+    <div class="row">
+        <div class="col-12 order-0 order-lg-0">
+            <h1>Remote JSON data with JS</h1>
+            <hr>
+        </div>
+        <div class="col-lg-3 order-2 order-lg-1">
+            <div class="d-md-flex py-2" id="sidemenu">
+    <ul class="nav flex-column flex-nowrap w-100 px-2">
+        <li class="nav-item"><a href="/tr/hakkinda/" class="nav-link">Hakkında</a></li>
+        <li class="nav-item">
+            <a class="nav-link collapsed" href="#submenu1" data-toggle="collapse" data-target="#submenu1">Altmenü Başlığı</a>
+            <div class="collapse show" id="submenu1" aria-expanded="false">
+                <ul class="flex-column nav">
+                    <li class="nav-item"><a href="/tr/json_data_source/" class="nav-link">JSON with data_source</a></li>
+                    <li class="nav-item"><a href="/tr/json_local_data/" class="nav-link">JSON with Middleman data</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link collapsed" href="#submenu1sub1" data-toggle="collapse" data-target="#submenu1sub1">Altmenü Alt</a>
+                        <div class="collapse show" id="submenu1sub1" aria-expanded="false">
+                            <ul class="flex-column nav">
+                                <li class="nav-item active"><a href="/tr/json_js/" class="nav-link">JSON with js</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </li>
+        <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Menü Başlığı</a></li>
+    </ul>
+</div>
+        </div>
+        <div class="col-lg-9 order-1 order-lg-2">
+            <p>Data from <code>https://newtablab.com/test/db.json</code> See <code>source/statics/js/custom.js</code></p>
+            <hr>
+            <ul id="remote-posts"></ul>
+            <ul id="remote-fruits"></ul>
+            <ul id="remote-people"></ul>
+        </div>
+    </div>
+</div>
+    <footer class="footer">
+    <div class="container">
+        TR Place sticky footer content here.
+    </div>
+</footer>
+    <script src="/statics/js/site.js"></script>
+      <script>
+    $(document).ready(function () { remote_json_fetch(); });
+  </script>
+
+</body>
+
+</html>
