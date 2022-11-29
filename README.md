@@ -1,19 +1,5 @@
-# my-project
+# newtablab.com
 
-## Project setup
-```
-npm install
-```
+![newtablab](https://raw.githubusercontent.com/orangekaos/orangekaos.github.io/main/site_media/gfx/logo.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+back once again with the renegade master
